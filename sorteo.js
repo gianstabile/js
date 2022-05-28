@@ -20,7 +20,7 @@ alert("Número de boleto introducido: " + numeroBoleto);
 
 // Salida
 let boletoGanador = 159753;
-if ((numeroBoleto == boletoGanador)) {
+if (numeroBoleto == boletoGanador) {
   alert(
     "El usuario " +
       nombreBoleto +
