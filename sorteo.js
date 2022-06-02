@@ -17,7 +17,13 @@ if (nombreBoleto == " ") {
 while (true) {
   let numeroBoleto = prompt("Escriba su número de la suerte de 3 dígitos: ");
   if (numeroBoleto == boletoGanador) {
-    alert("Felicitaciones "+nombreBoleto+". Ganaste!"+"\nNos comunicaremos contigo en el transcurso del día."+"\nHasta pronto!");
+    alert(
+      "Felicitaciones " +
+        nombreBoleto +
+        ". Ganaste!" +
+        "\nNos comunicaremos contigo en el transcurso del día." +
+        "\nHasta pronto!"
+    );
     break;
   } else if (numeroBoleto == 0) {
     alert("Has salido correctamente. Hasta pronto!");
